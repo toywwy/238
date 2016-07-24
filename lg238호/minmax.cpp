@@ -84,8 +84,12 @@ int main(void)
 	//sort 진짜 만능인것같다.
 
 
-	auto pai= minmax(v.begin(), v.end()-1);//-1을 해야 찾을수가있구나...
+	auto pai= minmax_element(v.begin(), v.end());//-1을 해야 찾을수가있구나...
 
-	cout << "PAI" << endl;
+
+	int pa1 = pai.first[0];
+	int pa2 = pai.second[0];
+
+	cout << pa1 << " , " << pa2 << endl;
 	return 0;
 }
