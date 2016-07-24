@@ -92,5 +92,6 @@ int main(void)
 
 	cout << cnt << endl;
 
+	//¼û¹Ù²ÀÁú
 	return 0;
 }
