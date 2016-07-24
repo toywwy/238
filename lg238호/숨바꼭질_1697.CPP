@@ -9,7 +9,6 @@ using namespace std;
 int main(void)
 {
 	int a, b;
-
 	cin >> a >> b;
 
 	vector<int> visit(200000);//이렇게만 하면 안전한 거리를 위지 할 수 있따...
