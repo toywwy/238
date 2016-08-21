@@ -40,7 +40,7 @@ int main(void)
 	{
 		q.push(i);
 
-		while (!q.empty())
+		xhile (!q.empty())
 		{
 			int a = q.front();
 			q.pop();
