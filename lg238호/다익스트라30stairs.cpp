@@ -12,7 +12,7 @@ int vertexCount;//정점의수
 int lineCount;
 int start;
 class Path {
-public
+public:
 	int from;
 	int value;
 	int flag;//왔다 갔으면 flag = 1 체크를 한다.
